@@ -22,6 +22,8 @@ Contributions to thapps are welcome! If you have an app to upload, please follow
 3. Ensure your app follows the standard format mentioned in [00001.html](https://github.com/KorryKatti/thapps/blob/main/apps/00001.html).
 4. Submit a pull request with your changes.
 
+<div style="color:red; font-size:20px;">WARNING: Only modify one file per pull request. The bot cannot handle large changes.</div>
+
 Please note that pull requests are managed by [@dunkelkron](https://github.com/dunkelkron), a bot. Pull request acceptance may take time due to its nature. For more information about the bot, please check [@dunkelkron](https://github.com/dunkelkron)'s profile.
 
 ## Note
