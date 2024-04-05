@@ -19,8 +19,10 @@ Contributions to thapps are welcome! If you have an app to upload, please follow
 
 1. Fork the repository.
 2. Add your app file (.html) to the `apps` folder.
-3. Ensure your app follows the standard format mentioned in [00001.html](00001.html).
+3. Ensure your app follows the standard format mentioned in [00001.html](https://github.com/KorryKatti/thapps/blob/main/apps/00001.html).
 4. Submit a pull request with your changes.
+
+Please note that pull requests are managed by [@dunkelkron](https://github.com/dunkelkron), a bot. Pull request acceptance may take time due to its nature. For more information about the bot, please check [@dunkelkron](https://github.com/dunkelkron)'s profile.
 
 ## Note
 
@@ -29,4 +31,3 @@ thapps is a part of the Thunder platform ecosystem. For any inquiries or concern
 ## Contact
 
 For any inquiries or concerns specific to this repository, please contact the repository owner [@KorryKatti](https://github.com/KorryKatti).
-
