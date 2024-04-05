@@ -5,7 +5,7 @@ thapps is a repository dedicated to storing the HTML data of all the apps upload
 ## Guidelines for Authors
 
 - **ID Assignment**: Authors should assign the ID immediately next to the last ID used. This ensures consistency and avoids conflicts.
-- **Standard Format**: Authors must adhere to the standard format mentioned in [00001.html](00001.html). This format ensures uniformity and ease of access for users.
+- **Standard Format**: Authors must adhere to the standard format mentioned in [00001.html](https://github.com/KorryKatti/thapps/blob/main/apps/00001.html). This format ensures uniformity and ease of access for users.
 - **Versioning**: Whenever authors update their apps, they must also update the app version in their respective HTML file. This helps users track the latest versions of apps.
 - **App Integrity**: Spamming or tampering with other people's HTML files will result in the removal of the app. Authors are expected to maintain the integrity of their apps and respect the work of others.
 
