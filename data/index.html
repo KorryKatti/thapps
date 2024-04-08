@@ -4,73 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dark Mode Blog</title>
-    <style>
-        body {
-            background-color: #000000; /* Amoled black */
-            color: #ffffff; /* White text */
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        
-        header {
-            background-color: #333333;
-            padding: 20px;
-            text-align: center;
-        }
-        
-        h1 {
-            margin: 0;
-        }
-        
-        main {
-            padding: 20px;
-        }
-        
-        article {
-            margin-bottom: 40px;
-        }
-        
-        footer {
-            background-color: #333333;
-            padding: 20px;
-            text-align: center;
-        }
-        
-        /* Light mode styles */
-        @media (prefers-color-scheme: light) {
-            body {
-                background-color: #ffffff;
-                color: #000000;
-            }
-            
-            header, footer {
-                background-color: #eeeeee;
-            }
-            
-            article {
-                background-color: #f0f0f0;
-                color: #000000;
-            }
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Dark Mode Blog</h1>
+    <header class="p-4 text-center bg-gray-800">
+        <h1 class="text-white text-2xl">Dark Mode Blog</h1>
     </header>
-    <main>
-        <article>
-            <h2>First Blog Post</h2>
+    <main class="p-4">
+        <article class="mb-8">
+            <h2 class="text-white text-xl">First Blog Post</h2>
             <p>This is the content of the first blog post.</p>
         </article>
-        <article>
-            <h2>Second Blog Post</h2>
+        <article class="mb-8">
+            <h2 class="text-white text-xl">Second Blog Post</h2>
             <p>This is the content of the second blog post.</p>
         </article>
         <!-- Add more articles as needed -->
     </main>
-    <footer>
+    <footer class="p-4 text-center text-white bg-gray-800">
         &copy; 2024 Dark Mode Blog
     </footer>
 </body>
