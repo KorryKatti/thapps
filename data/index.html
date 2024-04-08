@@ -3,112 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dark Mode Blog</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Thunder Dev Blogs</title>
+    <style>
+        body {
+            background-color: #000000; /* Amoled black */
+            color: #ffffff; /* White text */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333333;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        article {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #333333;
+            border-radius: 10px;
+        }
+        
+        article h2 {
+            margin-top: 0;
+        }
+        
+        article p {
+            margin-bottom: 20px;
+        }
+        
+        footer {
+            background-color: #333333;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        /* Light mode styles */
+        @media (prefers-color-scheme: light) {
+            body {
+                background-color: #ffffff;
+                color: #000000;
+            }
+            
+            header, footer {
+                background-color: #eeeeee;
+            }
+            
+            article {
+                background-color: #f0f0f0;
+                color: #000000;
+            }
+        }
+    </style>
 </head>
-<body class="bg-black">
-    <header class="text-gray-400 bg-gray-900 body-font">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-            <div class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-pink-500 rounded-full" viewBox="0 0 24 24">
-                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                </svg>
-                <span class="ml-3 text-xl">Tailblocks</span>
-            </div>
-        </div>
+<body>
+    <header>
+        <h1>Thunder Dev Blogs</h1>
     </header>
-
-    <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
-        <div class="container px-5 py-24 mx-auto">
-            <div class="-my-8 divide-y-2 divide-gray-800">
-                <div class="py-8 flex flex-wrap md:flex-nowrap">
-                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                        <span class="font-semibold title-font text-white">CATEGORY</span>
-                        <span class="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
-                    </div>
-                    <div class="md:flex-grow">
-                        <h2 class="text-2xl font-medium text-white title-font mb-2">Bitters hashtag waistcoat fashion axe chia unicorn</h2>
-                        <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                        <a href="#" class="text-pink-400 inline-flex items-center mt-4">Learn More
-                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M5 12h14"></path>
-                                <path d="M12 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
-                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                        <span class="font-semibold title-font text-white">CATEGORY</span>
-                        <span class="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
-                    </div>
-                    <div class="md:flex-grow">
-                        <h2 class="text-2xl font-medium text-white title-font mb-2">Meditation bushwick direct trade taxidermy shaman</h2>
-                        <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                        <a href="#" class="text-pink-400 inline-flex items-center mt-4">Learn More
-                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M5 12h14"></path>
-                                <path d="M12 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
-                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                        <span class="font-semibold title-font text-white">CATEGORY</span>
-                        <span class="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
-                    </div>
-                    <div class="md:flex-grow">
-                        <h2 class="text-2xl font-medium text-white title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
-                        <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                        <a href="#" class="text-pink-400 inline-flex items-center mt-4">Learn More
-                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M5 12h14"></path>
-                                <path d="M12 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="text-gray-400 bg-gray-900 body-font">
-        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-            <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-pink-500 rounded-full" viewBox="0 0 24 24">
-                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                </svg>
-                <span class="ml-3 text-xl">Tailblocks</span>
-            </a>
-            <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2020 Tailblocks —
-                <a href="https://twitter.com/knyttneve" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@knyttneve</a>
-            </p>
-            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-                <a class="text-gray-400">
-                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                    </svg>
-                </a>
-                <a class="ml-3 text-gray-400">
-                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                    </svg>
-                </a>
-                <a class="ml-3 text-gray-400">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-                    </svg>
-                </a>
-                <a class="ml-3 text-gray-400">
-                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
-                        <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
-                    </svg>
-                </a>
-            </span>
-        </div>
+    <main>
+        <article>
+            <h2>Topic 1</h2>
+            <p>Date: April 8, 2024</p>
+            <p>Description: This is the content of the first blog post. It provides an introduction to the topic.</p>
+            <a href="#">Click here to learn more</a>
+        </article>
+        <article>
+            <h2>Topic 2</h2>
+            <p>Date: April 9, 2024</p>
+            <p>Description: This is the content of the second blog post. It delves deeper into the topic discussed.</p>
+            <a href="#">Click here to learn more</a>
+        </article>
+        <article>
+            <h2>Topic 3</h2>
+            <p>Date: April 10, 2024</p>
+            <p>Description: This is the content of the third blog post. It explores another aspect of the topic.</p>
+            <a href="#">Click here to learn more</a>
+        </article>
+        <article>
+            <h2>Topic 4</h2>
+            <p>Date: April 11, 2024</p>
+            <p>Description: This is the content of the fourth blog post. It presents a different perspective on the topic.</p>
+            <a href="#">Click here to learn more</a>
+        </article>
+        <article>
+            <h2>Topic 5</h2>
+            <p>Date: April 12, 2024</p>
+            <p>Description: This is the content of the fifth blog post. It discusses further insights into the topic.</p>
+            <a href="#">Click here to learn more</a>
+        </article>
+    </main>
+    <footer>
+        &copy; 2024 Thunder Dev Blogs
     </footer>
 </body>
 </html>
