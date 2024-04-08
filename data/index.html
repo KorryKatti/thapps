@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode Blog</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333333;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        article {
+            margin-bottom: 40px;
+        }
+        
+        footer {
+            background-color: #333333;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        /* Dark mode styles */
+        @media (prefers-color-scheme: light) {
+            body {
+                background-color: #ffffff;
+                color: #000000;
+            }
+            
+            header, footer {
+                background-color: #eeeeee;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dark Mode Blog</h1>
+    </header>
+    <main>
+        <article>
+            <h2>First Blog Post</h2>
+            <p>This is the content of the first blog post.</p>
+        </article>
+        <article>
+            <h2>Second Blog Post</h2>
+            <p>This is the content of the second blog post.</p>
+        </article>
+        <!-- Add more articles as needed -->
+    </main>
+    <footer>
+        &copy; 2024 Dark Mode Blog
+    </footer>
+</body>
+</html>
