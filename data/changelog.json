@@ -1,12 +1,12 @@
 {
   "changelog": [
     {
-      "version": "Version 1.0:",
-      "changes": ["- Initial release", "- Added feature A", "- Fixed bug X"]
+      "version": "Version 0.0.0:",
+      "changes": ["- Pre-release", "- Uploaded Fully Functional Linux Code", "- Made Static Sites"]
     },
     {
-      "version": "Version 1.1:",
-      "changes": ["- Added feature B", "- Improved performance", "- Fixed bug Y"]
+      "version": "Version 0.0.1:",
+      "changes": ["- Main Release", "- Linux+Windows support", "- Fully coded sites"]
     }
   ]
 }
