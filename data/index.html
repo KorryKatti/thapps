@@ -2,11 +2,35 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Redirecting...</title>
-  <meta http-equiv="refresh" content="5;url=http://example.com/new_page.html">
+  <title>Simple Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #000000;
+    }
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .link {
+      padding: 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .link:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
-  <p>This page will redirect to another page in 5 seconds.</p>
-  <p>If you are not redirected, <a href="http://example.com/new_page.html">click here</a>.</p>
+  <div class="center">
+    <a class="link" href="https://thunderdevblogs.glitch.me">Click me to checkout Dev Blogs</a>
+  </div>
 </body>
 </html>
